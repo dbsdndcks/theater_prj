@@ -11,7 +11,7 @@
     AdminVO adminVO = new AdminVO(username,password);
 
     // Create an instance of AdminLoginDao
-    AdminLoginDao alDAO = new AdminLoginDao();
+    AdminLoginDao alDAO = AdminLoginDao.getInstance();
 
     // Call the adminLogin method to validate the user
     AdminVO adminLoginResultVO = alDAO.adminLogin(adminVO);
