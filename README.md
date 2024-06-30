@@ -28,11 +28,6 @@ Library : JDBC, jQuery
 <br>
 <br>
 
-
-```
-<br>
-<br>
-
 ## 기능
 Role은 고객 모드와 관리자 모드로 나누어져 있습니다.
 <br>
